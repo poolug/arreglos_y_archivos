@@ -7,7 +7,7 @@ def clear_steps(array)
         e = e.to_i
     end
     c = b.reject {|x| x<200 || x>10000}
-end 
+end
     
 print clear_steps pasos
 print "\n"
